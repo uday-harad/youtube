@@ -1,0 +1,352 @@
+
+@media screen and (max-width:1200px){
+    .overlay a{
+        margin-right: 20px;
+    }
+    .menu a{
+        margin-right: 5px;
+    }
+    .menu .user{
+        margin-right: 20px;
+    }
+    
+}
+@media screen and (max-width:1100px){
+    .overlay a{
+        margin-right: 30px;
+    }
+    .menu a{
+        margin-right: 0px;
+    }
+    .menu .user{
+        margin-right: 20px;
+    }
+    .topNav .logo img{
+        width: 15vw;
+    }
+    
+}
+
+@media screen and ( max-width: 930px)
+{
+      
+    .topNav{
+        width: 100%;
+        padding: 14px 2%;
+    }
+
+
+#navBar{
+    height: 120px;
+}
+
+ .menu .cart, .menu .user{
+         margin-right: 50px;
+        }
+
+        
+.overlay{
+    height:100vh;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.9);
+    overflow-x: hidden;
+    transition: .5s;
+}
+
+.overlay .navItems{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay .navItems a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay .navItems a:hover{
+      color: orange;
+      border-bottom: 2px solid orange;
+      transform: scale(1.1);
+    }
+    .overlay .closebtn {
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 45px;
+        font-size: 60px;
+        color: #f1f1f1;
+        z-index: 10002;
+      }
+
+
+
+       .menu #barIcon{
+        display: block;
+    }
+
+   .topNav .logo img{
+        width: 18vw;
+    }
+    .foodArea{
+        margin-bottom: 15%;
+
+    }
+    .foodsControl{
+        margin-bottom: 20%;
+        height: 200px;
+        
+    }
+}
+
+
+
+
+@media screen and ( max-width: 740px){
+
+    #navBar{
+        height: 80px;
+    }
+
+    .topNav .logo img{
+        margin-top: 20px;
+        width: 16vw;
+    }
+ 
+
+    .slider .mySlides{
+        height: 50vh;
+     }
+
+
+     .typewriter{
+        margin-top: 20px;
+        }
+
+        .typewriter .text{
+        font-size: 40px;
+        }
+
+     .option li{
+        font-size: 40px;
+    }
+    
+
+       .navItems a{
+        margin: 30px 0;
+     }
+     .foodsMain{
+        gap: 40px;
+       }
+
+}
+
+
+
+
+
+@media screen and ( max-width: 660px)
+{
+
+      
+    .topNav{
+        width: 100%;
+        padding: 10px 2%;
+        margin-right: 20px;
+    }
+
+ 
+   #navBar{
+    position:static;
+    height: 70px;
+   } 
+   .topNav .logo{
+    width: 20vw;
+   }
+   .topNav .logo img{
+    margin-top: 20px;
+    width: 25vw;
+}
+
+ .menu a{
+    margin-right:30px;
+    font-size: 20px;
+ }
+ .menu .bar-icon{
+   font-size: 30px;
+ }
+ .bar-icon span{
+    display: none;
+ }
+   .search-container{
+    width: 100px;
+    margin-top: 0;
+    margin-left: 50px;
+   }
+   #search-bar{
+    width: 100px;
+    font-size: 12px;
+   }
+   .foodsMain{
+    row-gap: 80px;
+   }
+
+}
+
+
+
+@media screen and ( max-width: 590px)
+{
+    .topNav{
+       padding-right: 0;
+    }
+    .menu a{
+        font-size: 17px;
+        
+    }
+    .menu .user, .menu .cart{
+        margin-right: 25px;
+    }
+    .menu .bar-icon{
+        font-size: 18px;
+      }
+      .foodsMain{
+        row-gap: 80px;
+       }
+}
+
+@media screen and ( max-width: 480px)
+{
+ 
+    .menu a{
+        font-size: 13px;
+    }
+    .menu .bar-icon{
+        font-size: 15px;
+      }
+
+}
+
+@media screen and ( max-width: 440px)
+{
+
+      #navBar{
+        height: auto; 
+        }
+
+    .topNav{
+        display: block;
+        margin:0 0;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .topNav .logo{
+       margin: 0 auto;
+        width: 50vw;
+       } 
+       .topNav .logo img{
+         width: 50vw;
+         margin-top: 20px;
+        } 
+
+ 
+  .search-container{
+    display: inline-flex;
+    width: 120px;
+    margin:0 20px;
+   }
+   #search-bar{
+    width: 120px;
+    height: 20px;
+    font-size: 13px;
+   }
+  .autocomplete-list {
+    margin-top: 45px;
+  }
+
+   .menu{
+    display: inline-flex;
+    justify-content: end;
+    margin-left: 10px;
+    width: auto;
+   }
+   .menu a{
+    font-size: 18px;
+   } 
+   .menu .bar-icon{
+    font-size: 18px;
+  } 
+
+      .slider .mySlides{
+        height: 35vh;
+       }
+      
+       .option li{
+        font-size: 30px;
+       }
+     
+}
+
+
+@media screen and ( max-width: 400px){
+
+    .search-container, #search-bar{
+        width: 100px;
+    }
+    .menu a{
+        font-size: 14px;
+       } 
+       .menu .bar-icon{
+        font-size: 15px;
+      } 
+
+   .slider .mySlides{
+    height: 35vh;
+   }
+   .typewriter .text{
+    font-size: 40px;
+    }
+
+   .option li{
+    font-size: 25px;
+   }
+    .about{
+        margin-bottom: 60px;
+    }
+     p{
+        font-size: 11px;
+    }
+
+    .statusBar p{
+        font-size: 10px;
+    }
+   
+
+}
+
+@media screen and (max-width:340px) {
+    .search-container, #search-bar{
+        width: 80px;
+    }
+    .menu a{
+        font-size: 12px;
+       } 
+       .menu .bar-icon{
+        font-size: 12px;
+      } 
+      .foodsMain{
+        row-gap: 150px;
+       }
+
+}
